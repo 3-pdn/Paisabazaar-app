@@ -1,0 +1,17 @@
+Example sequence after cloning this folder:
+
+1) Install requirements
+   pip install -r requirements.txt
+
+2) Run EDA:
+   python eda.py
+
+3) Train and tune model:
+   python train.py
+
+4) Run the Streamlit app:
+   streamlit run app_streamlit.py
+
+Notes:
+- The training script will output the best hyperparameters and save models/pipeline.joblib.
+- Replace data/paisabazar_sample.csv with your real dataset if you have one (ensure column names match).
